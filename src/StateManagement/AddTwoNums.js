@@ -44,7 +44,7 @@ const AddTwoNums = () => {
                                 placeholder="Enter value for num1"
                                 type="number"
                                 value={nums["num1"] || ''}
-                                onChange={(e) => changeNumValue(e)}
+                                onChange={changeNumValue}
                                 />
                         </FormGroup>
                     </Col>
@@ -59,7 +59,7 @@ const AddTwoNums = () => {
                                 placeholder="Enter value for num2"
                                 type="number"
                                 value={nums["num2"] || ''}
-                                onChange={(e) => changeNumValue(e)}
+                                onChange={changeNumValue}
                                 />
                         </FormGroup>
                     </Col>
