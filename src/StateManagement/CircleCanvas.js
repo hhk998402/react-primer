@@ -2,6 +2,7 @@ import React, { useState } from "react";
 
 const CircleCanvas = () => {
     const [points, setPoints] = useState([]);
+    const [pointsUndone, setPointsUndone] = useState([]);
 
     const addCircle = (e) => {
         setPoints([
@@ -11,7 +12,25 @@ const CircleCanvas = () => {
                 y: e.clientY
             }
         ]);
-        console.log(points);
+        setPointsUndone([]);
+    };
+
+    const handleRedo = () => {
+        let oldPointsUndone = [...pointsUndone];
+        let redoPoint = oldPointsUndone.pop();
+        if(redoPoint){
+            setPoints([...points, redoPoint]);
+            setPointsUndone(oldPointsUndone);
+        }       
+    };
+
+    const handleUndo = () => {
+        let oldPoints = [...points];
+        let undoPoint = oldPoints.pop();
+        console.log("Undo Point", undoPoint);
+        setPoints(oldPoints);
+        setPointsUndone([...pointsUndone, undoPoint]);
+        console.log(pointsUndone);
     };
 
     return(
@@ -24,11 +43,19 @@ const CircleCanvas = () => {
                     <li>Reset (remove all circles)</li>
                 </ol>
             </h6>
+            <div className="row">
+                <div className="col-md-6 center-block text-center">
+                    <button onClick={handleUndo} style={{minHeight:'20px', minWidth: '20%'}}>Undo</button>
+                </div>
+                <div className="col-md-6 center-block text-center">
+                    <button onClick={handleRedo} style={{minHeight:'20px', minWidth: '20%'}}>Redo</button>
+                </div>
+            </div>
             <div className="canvas" style={{height:"80vh", width:"100%", border: '1px solid black'}} onClick={addCircle}>
                 {
                     points.map((point, idx) => {
                         return (
-                            <div className="circle" 
+                            <div className="circle text-center" 
                                 style={{
                                     height: '30px', 
                                     width: '30px', 
@@ -39,7 +66,8 @@ const CircleCanvas = () => {
                                     left: point.x + 'px',
                                     top: point.y + 'px'
                                 }}
-                            />
+                            > {idx}
+                            </div>
                         )
                     })
                 }
