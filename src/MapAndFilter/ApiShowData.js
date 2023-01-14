@@ -23,6 +23,14 @@ const ApiShowData = () => {
 
     return (
         <div className="container">
+            <h1 className="display-4">1. Fetch Data from API, show in UI</h1>
+            <h6 className="lead">
+                <ol>
+                    <li>Hit the https://jsonplaceholder.typicode.com/users API, get list of users</li>
+                    <li>Populate the data in UI</li>
+                    <li>Implement a search functionality</li>
+                </ol>
+            </h6>
             <div className="input-group" style={{ margin: '0 0 20px 0', border: '1px solid black'}}>
                 <div className="input-group-prepend">
                     <span className="input-group-text">Search for user by name</span>
