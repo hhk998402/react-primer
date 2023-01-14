@@ -5,6 +5,7 @@ import Home from "./Home/Home";
 import NavBar from "./NavBar";
 import Counter from "./StateManagement/Counter";
 import AddTwoNums from "./StateManagement/AddTwoNums";
+import CircleCanvas from "./StateManagement/CircleCanvas";
 
 const App = () => {
     return (
@@ -30,6 +31,11 @@ const App = () => {
                     exact
                     path="addTwoNums"
                     element={<AddTwoNums />}
+                />
+                <Route
+                    exact
+                    path="circleCanvas"
+                    element={<CircleCanvas />}
                 />
             </Routes>
         </>  

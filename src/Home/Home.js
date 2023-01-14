@@ -47,6 +47,13 @@ const Home = () => {
                         <Link to="/addTwoNums">Demo Link</Link>
                     </AccordionBody>
                     </AccordionItem>
+                    <AccordionItem>
+                    <AccordionHeader targetId="4">Draw Circles on Canvas</AccordionHeader>
+                    <AccordionBody accordionId="4">
+                        <strong>Draw circles on canvas, undo/redo functionality, reset functionality</strong><br></br>
+                        <Link to="/circleCanvas">Demo Link</Link>
+                    </AccordionBody>
+                    </AccordionItem>
                 </Accordion>
             </div>
         </div>

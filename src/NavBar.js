@@ -36,6 +36,7 @@ const NavBar = (args) => {
               <DropdownMenu right>
                 <DropdownItem><NavLink href="/counter">Counter</NavLink></DropdownItem>
                 <DropdownItem><NavLink href="/addTwoNums">Add Two Nums</NavLink></DropdownItem>
+                <DropdownItem><NavLink href="/circleCanvas">Canvas to Place Circles</NavLink></DropdownItem>
                 <DropdownItem divider />
                 <DropdownItem>Reset</DropdownItem>
               </DropdownMenu>
