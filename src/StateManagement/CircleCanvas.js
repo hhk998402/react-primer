@@ -27,10 +27,13 @@ const CircleCanvas = () => {
     const handleUndo = () => {
         let oldPoints = [...points];
         let undoPoint = oldPoints.pop();
-        console.log("Undo Point", undoPoint);
         setPoints(oldPoints);
         setPointsUndone([...pointsUndone, undoPoint]);
-        console.log(pointsUndone);
+    };
+
+    const handleReset = () => {
+        setPoints([]);
+        setPointsUndone([]);
     };
 
     return(
@@ -44,11 +47,14 @@ const CircleCanvas = () => {
                 </ol>
             </h6>
             <div className="row">
-                <div className="col-md-6 center-block text-center">
+                <div className="col-md-4 center-block text-center">
                     <button onClick={handleUndo} style={{minHeight:'20px', minWidth: '20%'}}>Undo</button>
                 </div>
-                <div className="col-md-6 center-block text-center">
+                <div className="col-md-4 center-block text-center">
                     <button onClick={handleRedo} style={{minHeight:'20px', minWidth: '20%'}}>Redo</button>
+                </div>
+                <div className="col-md-4 center-block text-center">
+                    <button onClick={handleReset} style={{minHeight:'20px', minWidth: '20%'}}>Reset</button>
                 </div>
             </div>
             <div className="canvas" style={{height:"80vh", width:"100%", border: '1px solid black'}} onClick={addCircle}>
