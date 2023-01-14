@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react";
 
 const ApiShowData = () => {
     const [users, setUsers] = useState([]);
-    const [searchText, setSearchText] = useState("dfde");
+    const [searchText, setSearchText] = useState("");
     
     const getDataFromApi = () => {
         const url = "https://jsonplaceholder.typicode.com/users";
