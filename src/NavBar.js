@@ -27,15 +27,15 @@ const NavBar = (args) => {
         <Collapse isOpen={isOpen} navbar>
           <Nav className="me-auto" navbar>
             <NavItem>
-              <NavLink href="/mapAndFilter">Map And Filter</NavLink>
+              <NavLink href="/fetchDataFromApi">Fetch Data from API</NavLink>
             </NavItem>
             <UncontrolledDropdown nav inNavbar>
               <DropdownToggle nav caret>
-                Options
+                State Management
               </DropdownToggle>
               <DropdownMenu right>
-                <DropdownItem>Option 1</DropdownItem>
-                <DropdownItem>Option 2</DropdownItem>
+                <DropdownItem><NavLink href="/counter">Counter</NavLink></DropdownItem>
+                <DropdownItem><NavLink href="/addTwoNums">Add Two Nums</NavLink></DropdownItem>
                 <DropdownItem divider />
                 <DropdownItem>Reset</DropdownItem>
               </DropdownMenu>

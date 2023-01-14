@@ -33,23 +33,18 @@ const Home = () => {
                     </AccordionBody>
                     </AccordionItem>
                     <AccordionItem>
-                    <AccordionHeader targetId="2">Accordion Item 2</AccordionHeader>
+                    <AccordionHeader targetId="2">Implement a Counter</AccordionHeader>
                     <AccordionBody accordionId="2">
-                        <strong>This is the second item&#39;s accordion body.</strong>
-                        You can modify any of this with custom CSS or overriding our default
-                        variables. It&#39;s also worth noting that just about any HTML can
-                        go within the <code>.accordion-body</code>, though the transition
-                        does limit overflow.
+                        <strong>Implement a Counter Page</strong><br></br>
+                        Fairly straightforward, create a counter page that increments an integer<br></br>
+                        <Link to="/counter">Demo Link</Link>
                     </AccordionBody>
                     </AccordionItem>
                     <AccordionItem>
-                    <AccordionHeader targetId="3">Accordion Item 3</AccordionHeader>
+                    <AccordionHeader targetId="3">Add Two Nums</AccordionHeader>
                     <AccordionBody accordionId="3">
-                        <strong>This is the third item&#39;s accordion body.</strong>
-                        You can modify any of this with custom CSS or overriding our default
-                        variables. It&#39;s also worth noting that just about any HTML can
-                        go within the <code>.accordion-body</code>, though the transition
-                        does limit overflow.
+                        <strong>Add Two Numbers</strong><br></br>
+                        <Link to="/addTwoNums">Demo Link</Link>
                     </AccordionBody>
                     </AccordionItem>
                 </Accordion>
