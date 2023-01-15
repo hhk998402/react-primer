@@ -61,6 +61,14 @@ const Home = () => {
                         <Link to="/simpleForm1">Demo Link</Link>
                     </AccordionBody>
                     </AccordionItem>
+                    <AccordionItem>
+                    <AccordionHeader targetId="6">Form Handling - Dynamic Form Inputs</AccordionHeader>
+                    <AccordionBody accordionId="5">
+                        <strong>Use a single state variable to handle multiple form entries data, supporting dynamic addition of form inputs</strong><br></br>
+                        
+                        <Link to="/simpleForm1">Demo Link</Link>
+                    </AccordionBody>
+                    </AccordionItem>
                 </Accordion>
             </div>
         </div>

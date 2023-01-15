@@ -47,6 +47,7 @@ const NavBar = (args) => {
               </DropdownToggle>
               <DropdownMenu right>
                 <DropdownItem><NavLink href="/simpleForm1">Simple Form Handling (1-level nesting)</NavLink></DropdownItem>
+                <DropdownItem><NavLink href="/simpleForm2">Simple Form Handling (Dynamic Form Inputs)</NavLink></DropdownItem>
                 <DropdownItem divider />
                 <DropdownItem>Reset</DropdownItem>
               </DropdownMenu>

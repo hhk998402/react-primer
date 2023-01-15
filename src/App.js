@@ -7,6 +7,7 @@ import Counter from "./StateManagement/Counter";
 import AddTwoNums from "./StateManagement/AddTwoNums";
 import CircleCanvas from "./StateManagement/CircleCanvas";
 import SimpleFormSingleState from "./Forms/SimpleForm1/SimpleFormSingleState";
+import SimpleFormDynamicInputs from "./Forms/SimpleForm2_DynamicInputs/SimpleFormDynamicInputs";
 
 const App = () => {
     return (
@@ -42,6 +43,11 @@ const App = () => {
                     exact
                     path="simpleForm1"
                     element={<SimpleFormSingleState />}
+                />
+                <Route
+                    exact
+                    path="simpleForm2"
+                    element={<SimpleFormDynamicInputs />}
                 />
             </Routes>
         </>  
