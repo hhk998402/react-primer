@@ -54,6 +54,13 @@ const Home = () => {
                         <Link to="/circleCanvas">Demo Link</Link>
                     </AccordionBody>
                     </AccordionItem>
+                    <AccordionItem>
+                    <AccordionHeader targetId="5">Form Handling - Simple, Single State</AccordionHeader>
+                    <AccordionBody accordionId="5">
+                        <strong>Use a single state variable to handle multiple form entries data</strong><br></br>
+                        <Link to="/simpleForm1">Demo Link</Link>
+                    </AccordionBody>
+                    </AccordionItem>
                 </Accordion>
             </div>
         </div>

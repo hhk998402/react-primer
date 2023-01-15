@@ -41,6 +41,16 @@ const NavBar = (args) => {
                 <DropdownItem>Reset</DropdownItem>
               </DropdownMenu>
             </UncontrolledDropdown>
+            <UncontrolledDropdown nav inNavbar>
+              <DropdownToggle nav caret>
+                Forms
+              </DropdownToggle>
+              <DropdownMenu right>
+                <DropdownItem><NavLink href="/simpleForm1">Simple Form Handling (1-level nesting)</NavLink></DropdownItem>
+                <DropdownItem divider />
+                <DropdownItem>Reset</DropdownItem>
+              </DropdownMenu>
+            </UncontrolledDropdown>
           </Nav>
         </Collapse>
       </Navbar>

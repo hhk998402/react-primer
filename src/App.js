@@ -6,6 +6,7 @@ import NavBar from "./NavBar";
 import Counter from "./StateManagement/Counter";
 import AddTwoNums from "./StateManagement/AddTwoNums";
 import CircleCanvas from "./StateManagement/CircleCanvas";
+import SimpleFormSingleState from "./Forms/SimpleForm1/SimpleFormSingleState";
 
 const App = () => {
     return (
@@ -36,6 +37,11 @@ const App = () => {
                     exact
                     path="circleCanvas"
                     element={<CircleCanvas />}
+                />
+                <Route
+                    exact
+                    path="simpleForm1"
+                    element={<SimpleFormSingleState />}
                 />
             </Routes>
         </>  
