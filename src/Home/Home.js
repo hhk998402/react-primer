@@ -69,6 +69,21 @@ const Home = () => {
                         <Link to="/simpleForm2">Demo Link</Link>
                     </AccordionBody>
                     </AccordionItem>
+                    <AccordionItem>
+                    <AccordionHeader targetId="7">Form Handling - Connect to API</AccordionHeader>
+                    <AccordionBody accordionId="7">
+                        <strong>Connect a form to an API</strong><br></br>
+                        Form should connect to API, post data to it, and display data from API<br></br>
+                        <Link to="/moderateForm1">Demo Link</Link>
+                    </AccordionBody>
+                    </AccordionItem>
+                    <AccordionItem>
+                    <AccordionHeader targetId="8">Form Handling - API Debouncing</AccordionHeader>
+                    <AccordionBody accordionId="8">
+                        <strong>Use API debouncing to reduce the number of requests fired to an API</strong><br></br>
+                        <Link to="/moderateForm2">Demo Link</Link>
+                    </AccordionBody>
+                    </AccordionItem>
                 </Accordion>
             </div>
         </div>

@@ -9,6 +9,7 @@ import CircleCanvas from "./StateManagement/CircleCanvas";
 import SimpleFormSingleState from "./Forms/SimpleForm1/SimpleFormSingleState";
 import SimpleFormDynamicInputs from "./Forms/SimpleForm2_DynamicInputs/SimpleFormDynamicInputs";
 import ConnectToApiForm from "./Forms/ConnectToApiForm/ConnectToApiForm";
+import ZipCodeSearch from "./Forms/Debouncing/ZipCodeSearch";
 
 const App = () => {
     return (
@@ -54,6 +55,11 @@ const App = () => {
                     exact
                     path="moderateForm1"
                     element={<ConnectToApiForm />}
+                />
+                <Route
+                    exact
+                    path="moderateForm2"
+                    element={<ZipCodeSearch />}
                 />
             </Routes>
         </>  
