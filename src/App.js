@@ -8,6 +8,7 @@ import AddTwoNums from "./StateManagement/AddTwoNums";
 import CircleCanvas from "./StateManagement/CircleCanvas";
 import SimpleFormSingleState from "./Forms/SimpleForm1/SimpleFormSingleState";
 import SimpleFormDynamicInputs from "./Forms/SimpleForm2_DynamicInputs/SimpleFormDynamicInputs";
+import ConnectToApiForm from "./Forms/ConnectToApiForm/ConnectToApiForm";
 
 const App = () => {
     return (
@@ -48,6 +49,11 @@ const App = () => {
                     exact
                     path="simpleForm2"
                     element={<SimpleFormDynamicInputs />}
+                />
+                <Route
+                    exact
+                    path="moderateForm1"
+                    element={<ConnectToApiForm />}
                 />
             </Routes>
         </>  

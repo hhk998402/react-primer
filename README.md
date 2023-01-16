@@ -11,3 +11,4 @@ devServer: {
     historyApiFallback: true,
 },
 </pre>
+7. Install Axios to perform API requests: <code>npm install axios</code>
