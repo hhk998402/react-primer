@@ -10,6 +10,7 @@ import SimpleFormSingleState from "./Forms/SimpleForm1/SimpleFormSingleState";
 import SimpleFormDynamicInputs from "./Forms/SimpleForm2_DynamicInputs/SimpleFormDynamicInputs";
 import ConnectToApiForm from "./Forms/ConnectToApiForm/ConnectToApiForm";
 import ZipCodeSearch from "./Forms/Debouncing/ZipCodeSearch";
+import ParentForm from "./Forms/ContextApiForm/ParentForm";
 
 const App = () => {
     return (
@@ -60,6 +61,11 @@ const App = () => {
                     exact
                     path="moderateForm2"
                     element={<ZipCodeSearch />}
+                />
+                <Route
+                    exact
+                    path="moderateForm3"
+                    element={<ParentForm />}
                 />
             </Routes>
         </>  
