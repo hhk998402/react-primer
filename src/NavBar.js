@@ -54,6 +54,16 @@ const NavBar = (args) => {
                 <DropdownItem>Reset</DropdownItem>
               </DropdownMenu>
             </UncontrolledDropdown>
+            <UncontrolledDropdown nav inNavbar>
+              <DropdownToggle nav caret>
+                React Core
+              </DropdownToggle>
+              <DropdownMenu right>
+                <DropdownItem><NavLink href="/higherOrderComponent">Higher Order Component Usage</NavLink></DropdownItem>
+                <DropdownItem divider />
+                <DropdownItem>Reset</DropdownItem>
+              </DropdownMenu>
+            </UncontrolledDropdown>
           </Nav>
         </Collapse>
       </Navbar>

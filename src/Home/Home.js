@@ -67,49 +67,61 @@ const Home = () => {
                     </AccordionItem>
                     
                     <AccordionItem>
-                    <AccordionHeader targetId="6">Form Handling</AccordionHeader>
-                    <AccordionBody accordionId="6">
-                        <Accordion open={open} toggle={toggle}>
-                            <AccordionItem>
-                                <AccordionHeader targetId="7">Form Handling - Simple, Single State</AccordionHeader>
-                                <AccordionBody accordionId="7">
-                                    <strong>Use a single state variable to handle multiple form entries data</strong><br></br>
-                                    <Link to="/simpleForm1">Demo Link</Link>
-                                </AccordionBody>
-                            </AccordionItem>
-                            <AccordionItem>
-                                <AccordionHeader targetId="8">Form Handling - Dynamic Form Inputs</AccordionHeader>
-                                <AccordionBody accordionId="8">
-                                    <strong>Use a single state variable to handle multiple form entries data, supporting dynamic addition of form inputs</strong><br></br>
-                                    Using reducer-dispatch pattern, implement a form where an input group can be duplicated on the fly.<br></br>
-                                    <Link to="/simpleForm2">Demo Link</Link>
-                                </AccordionBody>
-                            </AccordionItem>
-                            <AccordionItem>
-                                <AccordionHeader targetId="9">Form Handling - Connect to API</AccordionHeader>
-                                <AccordionBody accordionId="9">
-                                    <strong>Connect a form to an API</strong><br></br>
-                                    Form should connect to API, post data to it, and display data from API<br></br>
-                                    <Link to="/moderateForm1">Demo Link</Link>
-                                </AccordionBody>
-                            </AccordionItem>
-                            <AccordionItem>
-                                <AccordionHeader targetId="10">Form Handling - API Debouncing</AccordionHeader>
-                                <AccordionBody accordionId="10">
-                                    <strong>Use API debouncing to reduce the number of requests fired to an API</strong><br></br>
-                                    <Link to="/moderateForm2">Demo Link</Link>
-                                </AccordionBody>
-                            </AccordionItem>
-                            <AccordionItem>
-                                <AccordionHeader targetId="11">Form Handling - Nested Components Single State Form Aggregation</AccordionHeader>
-                                <AccordionBody accordionId="11">
-                                    <strong>Use React Context API and Reducers to achieve maintaining state in parent with child's updates</strong><br></br>
-                                    <Link to="/moderateForm3">Demo Link</Link>
-                                </AccordionBody>
-                            </AccordionItem>
+                        <AccordionHeader targetId="6">Form Handling</AccordionHeader>
+                        <AccordionBody accordionId="6">
+                            <Accordion open={open} toggle={toggle}>
+                                <AccordionItem>
+                                    <AccordionHeader targetId="7">Form Handling - Simple, Single State</AccordionHeader>
+                                    <AccordionBody accordionId="7">
+                                        <strong>Use a single state variable to handle multiple form entries data</strong><br></br>
+                                        <Link to="/simpleForm1">Demo Link</Link>
+                                    </AccordionBody>
+                                </AccordionItem>
+                                <AccordionItem>
+                                    <AccordionHeader targetId="8">Form Handling - Dynamic Form Inputs</AccordionHeader>
+                                    <AccordionBody accordionId="8">
+                                        <strong>Use a single state variable to handle multiple form entries data, supporting dynamic addition of form inputs</strong><br></br>
+                                        Using reducer-dispatch pattern, implement a form where an input group can be duplicated on the fly.<br></br>
+                                        <Link to="/simpleForm2">Demo Link</Link>
+                                    </AccordionBody>
+                                </AccordionItem>
+                                <AccordionItem>
+                                    <AccordionHeader targetId="9">Form Handling - Connect to API</AccordionHeader>
+                                    <AccordionBody accordionId="9">
+                                        <strong>Connect a form to an API</strong><br></br>
+                                        Form should connect to API, post data to it, and display data from API<br></br>
+                                        <Link to="/moderateForm1">Demo Link</Link>
+                                    </AccordionBody>
+                                </AccordionItem>
+                                <AccordionItem>
+                                    <AccordionHeader targetId="10">Form Handling - API Debouncing</AccordionHeader>
+                                    <AccordionBody accordionId="10">
+                                        <strong>Use API debouncing to reduce the number of requests fired to an API</strong><br></br>
+                                        <Link to="/moderateForm2">Demo Link</Link>
+                                    </AccordionBody>
+                                </AccordionItem>
+                                <AccordionItem>
+                                    <AccordionHeader targetId="11">Form Handling - Nested Components Single State Form Aggregation</AccordionHeader>
+                                    <AccordionBody accordionId="11">
+                                        <strong>Use React Context API and Reducers to achieve maintaining state in parent with child's updates</strong><br></br>
+                                        <Link to="/moderateForm3">Demo Link</Link>
+                                    </AccordionBody>
+                                </AccordionItem>
                             </Accordion>
                         </AccordionBody>
-                        </AccordionItem>
+                    </AccordionItem>
+                    <AccordionItem>
+                        <AccordionHeader targetId="12">React Core Concepts</AccordionHeader>
+                        <AccordionBody accordionId="12">
+                            <AccordionItem>
+                                <AccordionHeader targetId="13">Higher Order Components</AccordionHeader>
+                                <AccordionBody accordionId="13">
+                                    <strong>Illustrate logic of HOC</strong><br></br>
+                                    <Link to="/higherOrderComponent">Demo Link</Link>
+                                </AccordionBody>
+                            </AccordionItem>
+                        </AccordionBody>
+                    </AccordionItem>
                 </Accordion>
             </div>
         </div>

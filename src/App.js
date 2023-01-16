@@ -11,6 +11,7 @@ import SimpleFormDynamicInputs from "./Forms/SimpleForm2_DynamicInputs/SimpleFor
 import ConnectToApiForm from "./Forms/ConnectToApiForm/ConnectToApiForm";
 import ZipCodeSearch from "./Forms/Debouncing/ZipCodeSearch";
 import ParentForm from "./Forms/ContextApiForm/ParentForm";
+import DisplayUserPosts from "./ReactCore/DisplayUserPosts";
 
 const App = () => {
     return (
@@ -66,6 +67,11 @@ const App = () => {
                     exact
                     path="moderateForm3"
                     element={<ParentForm />}
+                />
+                <Route
+                    exact
+                    path="higherOrderComponent"
+                    element={<DisplayUserPosts />}
                 />
             </Routes>
         </>  
