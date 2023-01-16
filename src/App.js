@@ -12,6 +12,7 @@ import ConnectToApiForm from "./Forms/ConnectToApiForm/ConnectToApiForm";
 import ZipCodeSearch from "./Forms/Debouncing/ZipCodeSearch";
 import ParentForm from "./Forms/ContextApiForm/ParentForm";
 import DisplayUserPosts from "./ReactCore/DisplayUserPosts";
+import LazyLoadingDemo from "./ReactCore/LazyLoading/LazyLoadingDemo";
 
 const App = () => {
     return (
@@ -72,6 +73,11 @@ const App = () => {
                     exact
                     path="higherOrderComponent"
                     element={<DisplayUserPosts />}
+                />
+                <Route
+                    exact
+                    path="lazyLoading"
+                    element={<LazyLoadingDemo />}
                 />
             </Routes>
         </>  

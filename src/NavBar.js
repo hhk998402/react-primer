@@ -60,6 +60,7 @@ const NavBar = (args) => {
               </DropdownToggle>
               <DropdownMenu right>
                 <DropdownItem><NavLink href="/higherOrderComponent">Higher Order Component Usage</NavLink></DropdownItem>
+                <DropdownItem><NavLink href="/lazyLoading">Lazy Loading Demo</NavLink></DropdownItem>
                 <DropdownItem divider />
                 <DropdownItem>Reset</DropdownItem>
               </DropdownMenu>

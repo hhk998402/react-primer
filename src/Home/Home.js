@@ -120,6 +120,13 @@ const Home = () => {
                                     <Link to="/higherOrderComponent">Demo Link</Link>
                                 </AccordionBody>
                             </AccordionItem>
+                            <AccordionItem>
+                                <AccordionHeader targetId="14">Lazy Loading Demo</AccordionHeader>
+                                <AccordionBody accordionId="14">
+                                    <strong>Demo of Lazy Loading</strong><br></br>
+                                    <Link to="/lazyLoading">Demo Link</Link>
+                                </AccordionBody>
+                            </AccordionItem>
                         </AccordionBody>
                     </AccordionItem>
                 </Accordion>
