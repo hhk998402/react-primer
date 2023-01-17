@@ -7,7 +7,7 @@ const LoremIpsum = () => {
     const getData = () => {
         axios.get("https://baconipsum.com/api/?type=meat-and-filler")
         .then(response => setText(response.data))
-        .catch(err => console.error(err)); 
+        .catch(err => console.error(err));
     };
 
     useEffect(() => {

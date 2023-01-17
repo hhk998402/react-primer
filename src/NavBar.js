@@ -61,6 +61,7 @@ const NavBar = (args) => {
               <DropdownMenu right>
                 <DropdownItem><NavLink href="/higherOrderComponent">Higher Order Component Usage</NavLink></DropdownItem>
                 <DropdownItem><NavLink href="/lazyLoading">Lazy Loading Demo</NavLink></DropdownItem>
+                <DropdownItem><NavLink href="/recursiveComponent">Recursive Component Call</NavLink></DropdownItem>
                 <DropdownItem divider />
                 <DropdownItem>Reset</DropdownItem>
               </DropdownMenu>

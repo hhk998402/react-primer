@@ -127,6 +127,13 @@ const Home = () => {
                                     <Link to="/lazyLoading">Demo Link</Link>
                                 </AccordionBody>
                             </AccordionItem>
+                            <AccordionItem>
+                                <AccordionHeader targetId="15">Recursive Component Call</AccordionHeader>
+                                <AccordionBody accordionId="15">
+                                    <strong>Demo of Recursive Component Call</strong><br></br>
+                                    <Link to="/recursiveComponent">Demo Link</Link>
+                                </AccordionBody>
+                            </AccordionItem>
                         </AccordionBody>
                     </AccordionItem>
                 </Accordion>

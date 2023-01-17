@@ -13,6 +13,7 @@ import ZipCodeSearch from "./Forms/Debouncing/ZipCodeSearch";
 import ParentForm from "./Forms/ContextApiForm/ParentForm";
 import DisplayUserPosts from "./ReactCore/DisplayUserPosts";
 import LazyLoadingDemo from "./ReactCore/LazyLoading/LazyLoadingDemo";
+import RecursiveComponentCall from "./ReactCore/RecursiveComponentCall/RecursiveComponentCall";
 
 const App = () => {
     return (
@@ -78,6 +79,11 @@ const App = () => {
                     exact
                     path="lazyLoading"
                     element={<LazyLoadingDemo />}
+                />
+                <Route
+                    exact
+                    path="recursiveComponent"
+                    element={<RecursiveComponentCall />}
                 />
             </Routes>
         </>  
