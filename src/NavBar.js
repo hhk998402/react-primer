@@ -62,6 +62,7 @@ const NavBar = (args) => {
                 <DropdownItem><NavLink href="/higherOrderComponent">Higher Order Component Usage</NavLink></DropdownItem>
                 <DropdownItem><NavLink href="/lazyLoading">Lazy Loading Demo</NavLink></DropdownItem>
                 <DropdownItem><NavLink href="/recursiveComponent">Recursive Component Call</NavLink></DropdownItem>
+                <DropdownItem><NavLink href="/reactCustomHook">React Custom Hook Usage</NavLink></DropdownItem>
                 <DropdownItem divider />
                 <DropdownItem>Reset</DropdownItem>
               </DropdownMenu>

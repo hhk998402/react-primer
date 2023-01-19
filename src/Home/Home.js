@@ -134,6 +134,13 @@ const Home = () => {
                                     <Link to="/recursiveComponent">Demo Link</Link>
                                 </AccordionBody>
                             </AccordionItem>
+                            <AccordionItem>
+                                <AccordionHeader targetId="16">React Custom Hook</AccordionHeader>
+                                <AccordionBody accordionId="16">
+                                    <strong>Demo of React Custom Hook to fetch data from API</strong><br></br>
+                                    <Link to="/reactCustomHook">Demo Link</Link>
+                                </AccordionBody>
+                            </AccordionItem>
                         </AccordionBody>
                     </AccordionItem>
                 </Accordion>

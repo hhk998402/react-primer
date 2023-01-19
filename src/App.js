@@ -14,6 +14,7 @@ import ParentForm from "./Forms/ContextApiForm/ParentForm";
 import DisplayUserPosts from "./ReactCore/DisplayUserPosts";
 import LazyLoadingDemo from "./ReactCore/LazyLoading/LazyLoadingDemo";
 import RecursiveComponentCall from "./ReactCore/RecursiveComponentCall/RecursiveComponentCall";
+import UserPostDisplayCustomHook from "./ReactCore/CustomHook/UserPostDisplayCustomHook";
 
 const App = () => {
     return (
@@ -84,6 +85,11 @@ const App = () => {
                     exact
                     path="recursiveComponent"
                     element={<RecursiveComponentCall />}
+                />
+                <Route
+                    exact
+                    path="reactCustomHook"
+                    element={<UserPostDisplayCustomHook />}
                 />
             </Routes>
         </>  
