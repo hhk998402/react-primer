@@ -15,6 +15,7 @@ import DisplayUserPosts from "./ReactCore/DisplayUserPosts";
 import LazyLoadingDemo from "./ReactCore/LazyLoading/LazyLoadingDemo";
 import RecursiveComponentCall from "./ReactCore/RecursiveComponentCall/RecursiveComponentCall";
 import UserPostDisplayCustomHook from "./ReactCore/CustomHook/UserPostDisplayCustomHook";
+import ZipCodeSearchMemoised from "./ReactCore/Memoisation/ZipCodeSearchMemoised";
 
 const App = () => {
     return (
@@ -90,6 +91,11 @@ const App = () => {
                     exact
                     path="reactCustomHook"
                     element={<UserPostDisplayCustomHook />}
+                />
+                <Route
+                    exact
+                    path="memoisation"
+                    element={<ZipCodeSearchMemoised />}
                 />
             </Routes>
         </>  

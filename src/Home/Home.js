@@ -141,6 +141,13 @@ const Home = () => {
                                     <Link to="/reactCustomHook">Demo Link</Link>
                                 </AccordionBody>
                             </AccordionItem>
+                            <AccordionItem>
+                                <AccordionHeader targetId="17">React Memoised API Response Caching</AccordionHeader>
+                                <AccordionBody accordionId="17">
+                                    <strong>Use memoisation to cache the response received from API</strong><br></br>
+                                    <Link to="/memoisation">Demo Link</Link>
+                                </AccordionBody>
+                            </AccordionItem>
                         </AccordionBody>
                     </AccordionItem>
                 </Accordion>
