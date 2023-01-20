@@ -148,6 +148,13 @@ const Home = () => {
                                     <Link to="/memoisation">Demo Link</Link>
                                 </AccordionBody>
                             </AccordionItem>
+                            <AccordionItem>
+                                <AccordionHeader targetId="18">Render Items on Scroll</AccordionHeader>
+                                <AccordionBody accordionId="18">
+                                    <strong>Render a large list of items piece-by-piece, based on scroll position of user</strong><br></br>
+                                    <Link to="/scrollRenderElem">Demo Link</Link>
+                                </AccordionBody>
+                            </AccordionItem>
                         </AccordionBody>
                     </AccordionItem>
                 </Accordion>

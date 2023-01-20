@@ -64,6 +64,7 @@ const NavBar = (args) => {
                 <DropdownItem><NavLink href="/recursiveComponent">Recursive Component Call</NavLink></DropdownItem>
                 <DropdownItem><NavLink href="/reactCustomHook">React Custom Hook Usage</NavLink></DropdownItem>
                 <DropdownItem><NavLink href="/memoisation">Memoisation - Cache API Response</NavLink></DropdownItem>
+                <DropdownItem><NavLink href="/scrollRenderElem">Render Large List of Items onScroll</NavLink></DropdownItem>
                 <DropdownItem divider />
                 <DropdownItem>Reset</DropdownItem>
               </DropdownMenu>

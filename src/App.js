@@ -16,6 +16,7 @@ import LazyLoadingDemo from "./ReactCore/LazyLoading/LazyLoadingDemo";
 import RecursiveComponentCall from "./ReactCore/RecursiveComponentCall/RecursiveComponentCall";
 import UserPostDisplayCustomHook from "./ReactCore/CustomHook/UserPostDisplayCustomHook";
 import ZipCodeSearchMemoised from "./ReactCore/Memoisation/ZipCodeSearchMemoised";
+import RenderItemsOnScroll from "./ReactCore/ScrollRenderItems/RenderItemsOnScroll";
 
 const App = () => {
     return (
@@ -96,6 +97,11 @@ const App = () => {
                     exact
                     path="memoisation"
                     element={<ZipCodeSearchMemoised />}
+                />
+                <Route
+                    exact
+                    path="scrollRenderElem"
+                    element={<RenderItemsOnScroll />}
                 />
             </Routes>
         </>  
